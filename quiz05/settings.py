@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "rest_framework",
+    "quiz05",
+    "api"
 ]
 
 MIDDLEWARE = [
@@ -77,7 +80,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'Quiz',
         "USER":"root",
-        "PASSWORD":""
+        "PASSWORD":"root",
+        "HOST":"127.0.0.1",
+        "PORT":"3306"
        
     }
 }
